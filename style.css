@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+#container{
+    position: relative;
+}
+#nav{
+    position: absolute;
+    top: 0%;
+}
+
+#title{
+    text-align: center;
+    /* margin-left: 30%; */
+}
+
+#me{
+    width: 100%;
+    padding: 35px 10%;
+    
+}
+
+.contents{
+    padding-left: 58%;
+}
+
+#titlee{
+    margin-right: 60%;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+}
+@media(min-width:600px){
+    #edu{
+        margin-left: 500px;
+    }
+}
+
+/* skills */
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 4rem;
+    margin-top: 90px;
+}
+.divs{
+    width: 100px;
+    height: 100px;
+}
+@media(min-width:600px){
+    .skill{
+        margin-top: 650px;
+    }
+    #cards{
+        padding: 0px 200px 0px 300px;
+    }
+}
+@media(max-width:600px){
+    .skill{
+        margin-top: 500px;
+        margin-left: 50px;
+    }
+}
+
+.project{
+    background-color: black ;
+    margin-top: 2%;
+  }
+  
+  .cardd:hover{
+    transform: scale(1.2);
+  }
+
+  #contacts{
+    margin-top: 5%;
+    color:  rgb(236, 74, 171);
+}
+
+.icon_set{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    padding-bottom: 30px;
+    padding-left: 40%;
+}
+ 
+  .icon i{
+    color: white;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,orange);
+    animation: shake 0.75s;
+}
+
+.icon:hover i{
+    color: white;
+}
+
+
+.icon{
+   padding-left: 3%;
+}
